@@ -1,6 +1,6 @@
 {
   "name": "@leonetti/array-first-ts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get first elements of array using typescript",
   "repository": "alexandreleonetti/array-first-ts",
   "type": "module",
