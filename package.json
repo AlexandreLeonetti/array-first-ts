@@ -1,8 +1,8 @@
 {
-  "name": "@leonetti/is-sorted-ts",
+  "name": "@leonetti/array-first-ts",
   "version": "0.0.1",
-  "description": "is array sorted in typescript",
-  "repository": "alexandreleonetti/is-sorted-ts",
+  "description": "get first elements of array using typescript",
+  "repository": "alexandreleonetti/array-first-ts",
   "type": "module",
   "exports": "./dist/index.js",
   "types": "./dist/index.d.ts",

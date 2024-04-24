@@ -1,19 +1,22 @@
-# binary parity 
+# Get first n elements using TypeScript 
 
-> Check if array is sorted, using TypeScript. 
+> Get first n elements using TypeScript. 
 
 ## Install
 
 ```sh
-npm install @leonetti/is-sorted-ts
+npm install @leonetti/array-first-ts
 ```
 
 ## Usage
 
 ```js
-import {checksort} from '@leonetti/is-sorted-ts';
+import {arrayFirst} from '@leonetti/array-first-ts';
 
-checksort([4,5,6]); //false 
-checksort([1000,10001,1000000]); //true
+arrayFirst(['a', 'b', 'c', 'd', 'e', 'f']);
+//=> 'a'
+
+arrayFirst(['a', 'b', 'c', 'd', 'e', 'f'], 4);
+//=> ['a', 'b', 'c','d']
 
 ```
